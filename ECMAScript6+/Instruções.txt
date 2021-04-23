@@ -1,0 +1,23 @@
+1º Instalamos as dependências do Babel no terminal (VSCode) da pasta "ECMAScript6+" com o comando:
+
+    npm i @babel/core @babel/cli @babel/preset-env -D
+
+(Instalamos com o VSCode numa pasta específica do projeto, e não na pasta raiz do projeto
+clicando com o botão direito na pasta e abrindo "Open in integrated terminal")
+
+2º O arquivo ".gitignore" ignora a pasta ou arquivo específico do projeto,
+e não envia pro seu repositório lá no GitHub.
+
+3º Esse comando converte com o Babel o código do ES6 pro ES5:
+    npx babel ./src/main.js -o ./public/bundle.js - w
+
+Por isso, pegamos ele e colocamos no objeto "scripts" do package.json,
+mas tirando o "npx" do começo, ficando:
+
+    "dev": "babel ./src/main.js -o ./public/bundle.js -w"
+
+(Dentro do objeto "scripts" do package.json)
+
+4º Sendo assim, damos start no babel apenas com o comando:
+
+    npm run dev
