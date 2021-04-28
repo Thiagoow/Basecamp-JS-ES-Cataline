@@ -1,4 +1,23 @@
 /*
+Para interromper os comandos de um "for" ou "while", usamos o comando "break",
+como no exemplo:
+*/
+const listaCompras = ["Arroz", "Feijão", "Banana", "Farinha"];
+
+for (let item of listaCompras) {
+  console.log("Verificando item:" + item);
+  if (item == "Banana") {
+    console.log("Banana existe na array lista :)");
+    break;
+    /*
+    Com o comando break, nosso "if" verifica até encontrar
+    o item desejado, e aí para de executar. Não exibindo então, 
+    o último item da array "listaCompras" = "Farinha".
+    */
+  }
+}
+
+/*
 Estrutura do FOR = quando souber quando o loop termina
 for (apartirdovalor; condição; incremento/decremento){
 

@@ -7,7 +7,7 @@ definições de variáveis que NÃO permitem que a variável saia do escopo
 "const" --> Variáveis imutáveis, que não permitem mudar os valores das variáveis;
 "let" --> Variáveis mutáveis, quando precisamos reatribuir um valor pra variável.
 
-Para pagar o valor de uma variável, atribuímos a ela, o comando "null". 
+Para APAGAR o valor de uma variável, atribuímos a ela, o comando "null". 
 Como por exemplo:
 
   idade = null;
@@ -52,7 +52,13 @@ const toDo = [
 //Filtra os toDo marcados como "done: true"
 const doneToDo = toDo.filter(function (toDos) {
   return toDos.done;
+  /*
+  Se quiséssemos filtrar os toDo marcados como "done: false"
+  faríamos:
+    return (toDos.done=false);
+  */
 });
+
 console.log("Ex 3:");
 console.log(doneToDo);
 
