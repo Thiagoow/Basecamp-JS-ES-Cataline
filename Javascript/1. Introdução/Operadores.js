@@ -73,3 +73,11 @@ var y = 2;
 console.log(y++); //o ++ somou +1, y era 2 e virou 3
 var result = x * y + y;
 console.log("O resultado da operação é: " + result);
+
+//IMC = m(kg)/h²(m)
+const m = 60;
+const h = 1.73;
+
+const imc = m / (h * h);
+console.log("IMC:");
+console.log(imc);

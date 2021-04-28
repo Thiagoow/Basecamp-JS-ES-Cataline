@@ -15,7 +15,17 @@ Como por exemplo:
 
 //-------------Operações com ARRAYS
 
-//1--------- Passando os dados de um vetor pra outro:
+//1------------------Mostrando todos os itens de uma array:
+const listaCompras = ["Arroz", "Feijão", "Banana"];
+
+console.log("");
+
+console.log("Lista Compras:");
+for (let item of listaCompras) {
+  console.log(item);
+}
+
+//2--------- Passando os dados de um vetor pra outro:
 const numbers = [1, 2, 3, 4, 5];
 //Define o novo vetor E(a partir do ()) muda as propriedades do antigo com uma função
 const newNumbers = numbers.map(function (number) {
@@ -25,14 +35,14 @@ console.log("Ex 1:");
 console.log(numbers);
 console.log(newNumbers);
 
-//2--------- Reduz todos os valores da ARRAY E(a partir do ()) soma todos eles com uma função
+//3--------- Reduz todos os valores da ARRAY E(a partir do ()) soma todos eles com uma função
 const total = numbers.reduce(function (total, next) {
   return total + next;
 });
 console.log("Ex 2:");
 console.log(total);
 
-//3------- Filtrando os dados de um array:
+//4------- Filtrando os dados de um array:
 const toDo = [
   { text: "lavar a louça", done: false },
   { text: "levar o lixo pra fora", done: true },
@@ -61,7 +71,7 @@ console.log(findIndex);
 //Se fosse um array simples (sem objetos), bastava fazer:
 // console.log(toDo.indexOf("lavar a louça"));
 
-//4-----------Vê se existe algum dado na array com o "some":
+//5-----------Vê se existe algum dado na array com o "some":
 const cars = ["fusca", "civic", "celta"];
 
 const searchingCar = cars.some(function (searchCar) {
