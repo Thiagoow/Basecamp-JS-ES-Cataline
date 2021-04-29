@@ -1,44 +1,39 @@
 //Hoje é domingo (dia 1), que dia da semana será daqui a X dias?
-let dias = 2;
-const resto = dias / 7;
-console.log("Hoje é domingo, quantos  dias vão ser daqui a " + dias + " dias?");
+let dias = 1;
 
+console.log("Hoje é domingo, que  dia vai ser daqui a " + dias + " dia(s)?");
+
+const resto = dias % 7;
+var message = "";
+
+//Depois de uma semana, o mesmo dia repete, ou seja:
 switch (resto) {
-  //Depois de uma semana, o mesmo dia repete, ou seja:
-  case 0 : 
-    console.log("Hoje é domingo");
+  case 0:
+    //Sempre 7 dias depois do domingo
+    console.log("Domingo");
     break;
-    
-    case 1:
-    //Sempre 1 dia demais do domingo
-    console.log("Hoje é segunda");
+  case 1:
+    //Sempre 1 dia depois do domingo
+    console.log("Segunda");
     break;
-  } else if (resto === 2) {
-    console.log("Hoje é terça");
-  } else if (resto === 3) {
-    console.log("Hoje é quarta");
-  } else if (resto === 4) {
-    console.log("Hoje é quinta");
-  } else if (resto === 6) {
-    console.log("Hoje é sexta");
-  } else if (resto === 7) {
-    console.log("Hoje é sábado");
-  }
+  case 2:
+    //Sempre 2 dias depois do domingo
+    console.log("Terça");
+    break;
+  case 3:
+    //Sempre 3 dias depois do domingo
+    console.log("Quarta");
+    break;
+  case 4:
+    //Sempre 4 dias depois do domingo
+    console.log("Quinta");
+    break;
+  case 5:
+    //Sempre 5 dias depois do domingo
+    console.log("Sexta");
+    break;
+  case 6:
+    //Sempre 6 dias depois do domingo
+    console.log("Sábado");
+    break;
 }
-
-//Uso de condicionais CASE
-switch (trafficLight) {
-    case "verde":
-      message += " Pode passar";
-      break;
-    case "amarelo":
-      message += " Atenção O_O";
-      break;
-    case "vermelho":
-      message += " PARAAAAA! XoX";
-      break;
-    default:
-      message += " Valor inválido >:c";
-  }
-
-console.log(diaDaSemana());
