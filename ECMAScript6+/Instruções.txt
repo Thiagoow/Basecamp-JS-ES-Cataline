@@ -27,6 +27,7 @@ e instalamos o webpack junto com o babel, com esse comando:
 
     npm install webpack webpack-cli webpack-dev-server @babel/polyfill -D
 
+Destrinchando o comando:
 webpack: Pacote com funções principais do webpack;
 webpack-cli: Utilizamos a linha de comando do webpack;
 webpack-dev-server: Permite levantar um server de dev;

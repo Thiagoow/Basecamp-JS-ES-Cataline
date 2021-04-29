@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "babel ./src/main.js -o ./public/bundle.js -w"
+    "dev": "webpack serve --mode=development"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    
+    "@babel/polyfill": "^7.12.1",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
