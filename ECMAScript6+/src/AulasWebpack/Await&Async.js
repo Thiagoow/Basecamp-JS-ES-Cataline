@@ -1,5 +1,3 @@
-//A partir do ES8(ES2017)
-
 //Função de promessa, que executa uma promessa a cada 1seg:
 const myPromise = () =>
   new Promise((resolve, reject) => {
@@ -7,6 +5,11 @@ const myPromise = () =>
       resolve("Promessa realizada! 😁😎");
     }, 1000);
   });
+
+/*
+A partir do ES8(ES2017), temos a sintaxe do "async", e do "await":
+Sendo OBRIGATÓRIO, PRA TODO async E await: ESTAREM NUMA FUNÇÃO.
+*/
 
 //Agora se quisermos fazer mais de 1 promessa:
 //Jeito CERTO (usando async):

@@ -4,7 +4,7 @@ const sum = (a, b) => a + b;
 const subtraction = (a, b) => a - b;
 
 //Exporta do jeito principal, a função pra usarmos no main.js:
-//export { sum };
+export { sum, subtraction };
 
 /*
 Havendo também a possibilidade de criar uma função 

@@ -9,7 +9,7 @@
 
 //MAS, como nesse caso, eu quero usar todas as funções do calculator.js,
 //a sum e subtraction, pois só tem elas lá). Eu poderia usar o "*", para importar TUDO:
-import * as calculator from "./calculator";
+import * as calculator from "./calculator.js";
 
 //Definindo então, aqui no console.log, qual a função que desejamos
 //de toda a importação "calculator", do calculator.js:
