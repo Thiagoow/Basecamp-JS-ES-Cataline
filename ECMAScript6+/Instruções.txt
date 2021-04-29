@@ -21,15 +21,3 @@ mas tirando o "npx" do começo, ficando:
 4º Sendo assim, damos start no babel apenas com o comando:
 
     npm run dev
-
-A partir das aulas de webpack, excluímos as dev dependencies do package.json,
-e instalamos o webpack junto com o babel, com esse comando:
-
-    npm install webpack webpack-cli webpack-dev-server @babel/polyfill -D
-
-Destrinchando o comando:
-webpack: Pacote com funções principais do webpack;
-webpack-cli: Utilizamos a linha de comando do webpack;
-webpack-dev-server: Permite levantar um server de dev;
-@babel/polyfill: Permite suporte de browser, adapta os códigos ES>=6 pra ES<=5, em browsers desatualizados;
---save-dev OU -D: Salva o comando como dependências de dev.
