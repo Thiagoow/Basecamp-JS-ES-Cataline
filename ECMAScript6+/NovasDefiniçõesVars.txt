@@ -8,8 +8,8 @@ definições de variáveis que NÃO permitem que a variável saia do escopo.
 "const" --> Define vars imutáveis, que não permitem mudar os valores das variáveis,
 ----------------------------!!!!! A NÃO SER: !!!!!------------------------------- 
 ---------------------QUE ESSA VARIÁVEL SEJA UM OBJETO!!!-------------------------
-Nesse caso, os valores/atributos/propriedades da variável, continuarão sendo mutáveis. 
-Sendo imutável então, nesse caso, APENAS o nome da var.
+Nesse caso, os valores/atributos/propriedades da var, continuarão sendo mutáveis; 
+Sendo imutável então, nesse caso, APENAS o nome da variável.
 
 
 Para APAGAR o valor de uma variável, atribuímos a ela, o comando "null". 
