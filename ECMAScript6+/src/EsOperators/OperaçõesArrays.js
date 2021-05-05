@@ -1,18 +1,3 @@
-/*
-Até o ES5, podíamos apenas definir uma variável
-com o comando "var". Agr, a partir do ES6, podemos
-definir uma var, usando também: "const" e "let", que são
-definições de variáveis que NÃO permitem que a variável saia do escopo
-
-"const" --> Variáveis imutáveis, que não permitem mudar os valores das variáveis;
-"let" --> Variáveis mutáveis, quando precisamos reatribuir um valor pra variável.
-
-Para APAGAR o valor de uma variável, atribuímos a ela, o comando "null". 
-Como por exemplo:
-
-  idade = null;
-*/
-
 //-------------Operações com ARRAYS
 
 //1------------------Mostrando todos os itens de uma array:
