@@ -18,5 +18,21 @@ import * as calculator from "./calculator.js";
 //Definindo então, aqui no console.log, qual a função que desejamos
 //de toda a importação "calculator", do calculator.js:
 
-console.log(calculator.sum(10, 5));
 console.log(calculator.subtraction(10, 3));
+console.log(calculator.sum(10, 5));
+/*
+Porém, como o calculator é do tipo .js,
+as funções tem suas vars como padrão
+do tipo "any". Por causa da tipagem dinâmica.
+
+Oq significa que, se colocarmos os números com ""
+(duas strings), a função irá CONCATENÁ-LOS,
+invés de realmente somar. Veja:
+*/
+console.log(sum("10", "5"));
+/*
+Para impedir isso, não tem jeito, ou declaramos as
+vars no próprio arquivo Js, ou transformamos ele pra
+Ts, declarando todas as variáveis também. Para evitar
+esses erros.
+*/
