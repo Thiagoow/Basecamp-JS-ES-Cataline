@@ -25,12 +25,12 @@ const chaveCriptográfica = {
   "@#@": "E",
   "@@#": "M",
   "@@@": "Y",
-  " ": " ",
+  " ": " "
 };
 
 //Solucionando:
 let Descript = "";
-//A cade 3 caractéres temos uma letra, então:
+//A cada 3 caracteres temos uma letra, então:
 for (i = 0; i < mnsg1.length; i += 3) {
   const letra = mnsg1[i] + mnsg1[i + 1] + mnsg1[i + 2];
   Descript += chaveCriptográfica[letra];
@@ -38,7 +38,7 @@ for (i = 0; i < mnsg1.length; i += 3) {
 console.log(Descript);
 
 /*
-Agora, criptografe a mnsg que vpcê descriptografou 
+Agora, criptografe a mnsg que você descriptografou 
 PRA VER SE TÁ CERTO 😈👹:
 */
 
@@ -53,7 +53,7 @@ const criptografia = {
   E: "@#@",
   M: "@@#",
   Y: "@@@",
-  " ": " ",
+  " ": " "
 };
 
 //Criptografando:

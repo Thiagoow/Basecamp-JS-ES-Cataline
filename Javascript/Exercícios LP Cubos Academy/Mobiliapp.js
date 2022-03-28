@@ -2,20 +2,20 @@ const tempo = 2;
 const distancia = 1;
 
 //Colocar lá:
-let preco = 0;
+let price = 0;
 if (tempo < 5) {
-  preco = 600;
-  console.log(preco);
+  price = 600;
+  console.log(price);
 } else if (tempo > 5 && tempo < 60) {
-  preco = 100 * tempo + 50 * distancia;
-  console.log(preco);
+  price = 100 * tempo + 50 * distancia;
+  console.log(price);
 } else if (tempo > 60) {
   if (distancia >= 100) {
-    preco = 150 * distancia;
-    console.log(preco);
+    price = 150 * distancia;
+    console.log(price);
   } else {
-    preco = 200 * distancia;
-    console.log(preco);
+    price = 200 * distancia;
+    console.log(price);
   }
 }
 
