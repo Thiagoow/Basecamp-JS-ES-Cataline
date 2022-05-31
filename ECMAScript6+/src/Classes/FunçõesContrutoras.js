@@ -23,8 +23,8 @@ console.log(Car);
 sendo assim, não podemos usa-lá nesse caso. 
 */
 
-const celta = new Car("Celta", "Chevrolet", 130);
-const hb20 = new Car("Hb20", "Hyundai", 200);
+const celta = new Car('Celta', 'Chevrolet', 130);
+const hb20 = new Car('Hb20', 'Hyundai', 200);
 
 console.log(celta);
 console.log(hb20);

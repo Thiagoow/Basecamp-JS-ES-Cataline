@@ -48,7 +48,7 @@ class Person {
   }
 }
 
-const person = new Person("Thiago", "Silva");
+const person = new Person('Thiago', 'Silva');
 //Exibe o nome completo da pessoa:
 console.log(person.fullName);
 

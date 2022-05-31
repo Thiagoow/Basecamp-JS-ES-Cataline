@@ -27,7 +27,7 @@ class Veículo {
   }
 }
 const celta = new Veículo(4);
-console.log("Veículo:");
+console.log('Veículo:');
 celta.acelerar();
 
 class Moto extends Veículo {
@@ -39,13 +39,13 @@ class Moto extends Veículo {
     super.acelerar();
     //Sendo a mesma coisa que fazer: ClassePai.acelerar();
     //Método existente apenas na classe moto:
-    console.log("Acelerou como uma moto 😎");
+    console.log('Acelerou como uma moto 😎');
   }
 }
 
 //Cria uma nova moto com número de rodas:
 const lambreta = new Moto(2);
 //Executa o método presente na classe moto:
-console.log("Moto:");
+console.log('Moto:');
 lambreta.acelerar();
 lambreta.empinar();

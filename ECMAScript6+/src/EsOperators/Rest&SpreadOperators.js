@@ -8,13 +8,13 @@ console.log(rest);
 
 //Objeto:
 const person = {
-  name: "Thiago",
-  surname: "Silva",
+  name: 'Thiago',
+  surname: 'Silva',
   age: 18,
   address: {
-    city: "São Paulo",
-    region: "SP",
-  },
+    city: 'São Paulo',
+    region: 'SP'
+  }
 };
 
 const { name, ...rest1 } = person;
@@ -44,11 +44,11 @@ const person1 = {
   como a idade e a cidade(atributo do objeto original dentro do objeto "address"):
   */
   age: 50,
-  address: { city: "Brasília", region: person.address.region },
+  address: { city: 'Brasília', region: person.address.region }
 };
 
-console.log("Objeto original:");
+console.log('Objeto original:');
 console.log(person);
-console.log("Objeto clonado (age e city alterados):");
+console.log('Objeto clonado (age e city alterados):');
 console.log(person1);
 //Não pra concatenar com a escrita sendo objeto :c

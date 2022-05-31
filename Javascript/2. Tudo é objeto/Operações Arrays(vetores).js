@@ -1,4 +1,4 @@
-var array = ["Lulee", "Thiago", "Millena"];
+var array = ['Lulee', 'Thiago', 'Millena'];
 array1 = array;
 array2 = array;
 array3 = array;
@@ -16,7 +16,7 @@ for (i = 0; i < array.length; i++) {
 Se o retorno for 0 = Primeira posição (PQ TD ARRAY INICIA A CONTAGEM POR 0)
 Se o retorno for -1 = O argumento bão existe na array.
 */
-var v = array.indexOf("Lulee");
+var v = array.indexOf('Lulee');
 console.log(v);
 
 //Excluindo o último valor de uma array
@@ -24,7 +24,7 @@ array1.pop();
 console.log(array1);
 
 //Incrementando na array
-array2.push("Isabelli");
+array2.push('Isabelli');
 console.log(array2);
 
 //Deletar valor na posição X, Y vezes

@@ -9,7 +9,7 @@ const showProduct = (product, price) => {
     `O valor de ${product} é de R$ ${price}, com a promoção aplicada! :)"`
   );
 };
-showProduct("Camisa", 20.5);
+showProduct('Camisa', 20.5);
 
 /*
   Dando até pra fazer operações com string no "product" e "price", como:

@@ -18,7 +18,7 @@ const myPromise = () =>
       Se for resolve, aparece a mensagem que devemos inserir num console.log("") quando 
       a promessa for executada, nesse exemplo (com async e await): dentro do "try".
       */
-      resolve("Promessa REJEITADA! (reject) 🥺😕");
+      resolve('Promessa REJEITADA! (reject) 🥺😕');
     }, 1000);
   });
 
@@ -28,14 +28,14 @@ const exec = async () => {
     //Realiza uma promessa:
     await myPromise();
     //Mensagem se a promessa for realizada/resolve:
-    console.log("Promessa REALIZADA! (resolve) 🤩😎");
+    console.log('Promessa REALIZADA! (resolve) 🤩😎');
     //Caso o try dê errado:
   } catch (error) {
     //Mostra uma mensagem no console assim como o ".log", mas o ".warn" serve pra destacar 😉:
     console.warn(error);
     //Quando a promessa terminar 😁:
   } finally {
-    console.log("Promessa(s) finalizada :D");
+    console.log('Promessa(s) finalizada :D');
   }
 };
 

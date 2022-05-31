@@ -1,5 +1,5 @@
 //1------- Desestruturando/"tirando" dados de uma array:
-const fruits = ["laranja", "morango", "maça"];
+const fruits = ['laranja', 'morango', 'maça'];
 
 //Forma nova:
 const [a, , c] = fruits;
@@ -15,20 +15,20 @@ console.log(a, c);
 
 //2------- Desestruturando um objeto:
 const person = {
-  name: "Thiago",
-  surname: "Silva",
+  name: 'Thiago',
+  surname: 'Silva',
   age: 18,
   address: {
-    city: "São Paulo",
-    region: "SP",
-  },
+    city: 'São Paulo',
+    region: 'SP'
+  }
 };
 
 //Forma nova:
 const {
   name,
   surname,
-  address: { region },
+  address: { region }
 } = person;
 
 console.log(name, surname, region);

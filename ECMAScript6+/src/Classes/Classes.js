@@ -13,9 +13,9 @@ class Car {
   caso não sejam modificados:
   */
   constructor(
-    brand = "ERRO - Sem marca 🤔",
-    model = "ERRO - Sem modelo 🤔",
-    price = "ERRO - Sem preço 🤔"
+    brand = 'ERRO - Sem marca 🤔',
+    model = 'ERRO - Sem modelo 🤔',
+    price = 'ERRO - Sem preço 🤔'
   ) {
     this.brand = brand;
     this.model = model;
@@ -23,19 +23,19 @@ class Car {
   }
 
   acelerar() {
-    console.log("Vrruummm!");
+    console.log('Vrruummm!');
   }
 }
 
-const celta = new Car("Chevrolet", "Celta");
-const hb20 = new Car("Hyundai", "HB20", "160K");
+const celta = new Car('Chevrolet', 'Celta');
+const hb20 = new Car('Hyundai', 'HB20', '160K');
 
-console.log("Celta fez:");
+console.log('Celta fez:');
 celta.acelerar();
 console.log(celta);
-console.log("O preço é: " + celta.price);
+console.log('O preço é: ' + celta.price);
 console.log(hb20);
-console.log("A marca é: " + hb20.brand);
+console.log('A marca é: ' + hb20.brand);
 
 /*
 Jeito ERRADO:

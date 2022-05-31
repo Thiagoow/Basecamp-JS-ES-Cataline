@@ -1,5 +1,5 @@
 //Salvando infos no Local Storage (versão mais recente dos Cookies) do navegador :
-localStorage.nomeDaInfo = "Info";
+localStorage.nomeDaInfo = 'Info';
 //Exibindo a info
 console.log(localStorage.nomeDaInfo);
 

@@ -1,5 +1,5 @@
 if (true) {
-  var car = "BMW";
+  var car = 'BMW';
 }
 console.log(car);
 
@@ -8,9 +8,9 @@ Em cima, usamos o exemplo do uso de uma variável
 criada e definida num escopo local
 */
 
-var bike = "";
+var bike = '';
 if (true) {
-  bike = "HarleyDavidson";
+  bike = 'HarleyDavidson';
 }
 console.log(bike);
 /*
@@ -18,7 +18,7 @@ Agora nesse exemplo, criamos uma variável globalmente
 e defini-la num escopo local
 */
 if (true) {
-  let boat = "Caravela";
+  let boat = 'Caravela';
 }
 console.log(boat);
 /*

@@ -16,11 +16,11 @@ https://github.com/axios/axios
 usar a variável "xhr", use os comandos da biblioteca axios :)
 */
 
-var button = document.querySelector("button");
+var button = document.querySelector('button');
 
-button.addEventListener("click", function () {
+button.addEventListener('click', function () {
   axios
-    .get("https://api.github.com/users")
+    .get('https://api.github.com/users')
     .then(function (response) {
       //Mostra a resposta do get Axios
       console.log(response);
@@ -31,6 +31,6 @@ button.addEventListener("click", function () {
       console.log(error);
     })
     .finally(function () {
-      console.log("Requisição AJAX Finalizada :)");
+      console.log('Requisição AJAX Finalizada :)');
     });
 });

@@ -1,7 +1,7 @@
 //1º Selecionar a tag que você quer manipular tal evento com o querySelector:
 //Sintaxe do querySelector --> var test = document.querySelector('#DivOUClasseDesejada TagOUElementoDesejado')
-var button = document.querySelector("#app button");
-var input = document.querySelector("#app input#idade"); // --> Esse armazena o valor digitado no input "idade"
+var button = document.querySelector('#app button');
+var input = document.querySelector('#app input#idade'); // --> Esse armazena o valor digitado no input "idade"
 
 //2º Selecione o evento desejado e o que executar com o addEventListener:
 /*
@@ -21,7 +21,7 @@ var input = document.querySelector("#app input#idade"); // --> Esse armazena o v
     NomeVarQuerySelector.addEventListener("click", NomeTal)
 */
 
-button.addEventListener("click", function (event) {
+button.addEventListener('click', function (event) {
   event.preventDefault(); // Não permite a página recarregar quando envia-se as informações se não há o 'action' na div 'form'
-  alert("Sua idade é: " + input.value);
+  alert('Sua idade é: ' + input.value);
 });

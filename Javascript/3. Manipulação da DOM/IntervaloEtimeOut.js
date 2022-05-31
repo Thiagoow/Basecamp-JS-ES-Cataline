@@ -5,7 +5,7 @@ No JS, os intervalos são contados em milissegundos(ms), ou seja:
 
 //Podemos criar uma função para o intervalo na própria sintaxe de intervalo:
 setInterval(function () {
-  console.log("executou");
+  console.log('executou');
 }, 2000);
 
 /*
@@ -15,7 +15,7 @@ apenas inseri-la na sintaxe de intervalo
 
 //Criando a função:
 function intervalo() {
-  console.log("executouDoOutroJeito");
+  console.log('executouDoOutroJeito');
 }
 //Criando o intervalo e inserindo a função:
 setInterval(intervalo, 4000);
@@ -27,5 +27,5 @@ Diferentemente do setInterval, ele executa uma tarefa apenas uma vez, e para.
 //USO DO setTimeOut:
 
 setTimeout(function () {
-  console.log("timeOutFuncionou😎");
+  console.log('timeOutFuncionou😎');
 }, 1000);

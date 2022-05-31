@@ -1,4 +1,4 @@
-var app = document.querySelector("div#app");
+var app = document.querySelector('div#app');
 
 /*
 Formas de retorno (console.log) e troca ( = X) do elemento:
@@ -11,4 +11,4 @@ Formas de retorno (console.log) e troca ( = X) do elemento:
 //Exemplo de troca de outerHTML(todo o conteúdo) da div app pelo texto "Olá":
 
 console.log(app.outerHTML);
-app.outerHTML = "Olá";
+app.outerHTML = 'Olá';

@@ -29,9 +29,9 @@ class Person {
 }
 
 //Criando uma nova pessoa com a função construtora, e definindo o nome da pessoa:
-const person = new Person("Thiago Silva");
+const person = new Person('Thiago Silva');
 //Tentando alterar o nome:
-person.name = "Roberto Pereira";
+person.name = 'Roberto Pereira';
 /*
 Se der erro, significa que o "_" está funcionando, e a var é imutável;
 Se funcionar, o "set" está funcionando e a var voltou a ser mutável.

@@ -10,12 +10,12 @@ DELETE = Deletar informações no server;
 */
 
 //1º Selecionamos o elemento no HTML que chamará a requisição AJAX:
-var button2 = document.querySelector("button");
+var button2 = document.querySelector('button');
 
 //2º Criamos a função AJAX com o método desejado:
-button2.addEventListener("click", function () {
+button2.addEventListener('click', function () {
   var xhr = new XMLHttpRequest(); //Cria o request do arquivo
-  xhr.open("GET", "https://api.github.com/users"); //Usa o GET pra pegar a informação do link tal
+  xhr.open('GET', 'https://api.github.com/users'); //Usa o GET pra pegar a informação do link tal
   xhr.send(); //Colocamos dentro dos () se a requisição for do tipo PUT ou POST, os dados que queremos enviar pro server
 
   //3º Vemos se a requisição XHR deu certo, e exibimos no console.log:

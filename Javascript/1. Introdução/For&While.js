@@ -2,12 +2,12 @@
 Para interromper os comandos de um "for" ou "while", usamos o comando "break",
 como no exemplo:
 */
-const listaCompras = ["Arroz", "Feijão", "Banana", "Farinha"];
+const listaCompras = ['Arroz', 'Feijão', 'Banana', 'Farinha'];
 
 for (let item of listaCompras) {
-  console.log("Verificando item:" + item);
-  if (item == "Banana") {
-    console.log("Banana existe na array lista :)");
+  console.log('Verificando item:' + item);
+  if (item == 'Banana') {
+    console.log('Banana existe na array lista :)');
     break;
     /*
     Com o comando break, nosso "if" verifica até encontrar
@@ -20,7 +20,7 @@ for (let item of listaCompras) {
 /*
 Estrutura do FOR = quando souber quando o loop termina
 for (apartirdovalor; condição; incremento/decremento){
-
+  //Código aqui
 }
 */
 console.log("Contando de 0 - 10 com 'for':");

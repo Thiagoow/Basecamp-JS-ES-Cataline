@@ -10,19 +10,19 @@ console.log(document);
 //Mostra as propriedades da página/objeto global HTML
 // console.log(window);
 
-//Mostra a localização da pagína/objeto HTML :)
+//Mostra a localização da página/objeto HTML :)
 // location.href = "http://google.com";
 
 //Mostra as propriedades de um elemento específico no HTML
-var input = document.querySelector("input#idade");
-//Sintaxe do querySelector --> var x = document.querySelector('DivOUClasseDesejada#TagOUElementoDesejado')
+var input = document.querySelector('input#idade');
+//Sintaxe do querySelector -> var x = document.querySelector('DivOUClasseDesejada#TagOUElementoDesejado')
 console.log(input);
 
 /* Outras formas de selecionar um elemento: 
-//By id
+//By id:
 var test = document.getElementById("idade");
 console.log(test);
-//ByClass
+//ByClass:
 var test1 = document.getElementsByClassName("idade");
 console.log(test1);
 */

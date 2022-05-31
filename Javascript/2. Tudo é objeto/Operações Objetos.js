@@ -1,10 +1,10 @@
 var person = {
-  name: "Thiago Lopes",
-  weight: 70.5,
+  name: 'Thiago Lopes',
+  weight: 70.5
 };
 
 var any = {
-  sex: "M",
+  sex: 'M'
 };
 
 //Adicionando atributos no objeto pessoa
@@ -14,7 +14,7 @@ person.age = 18;
 //Object.freeze(person);
 
 //Tentando mudar o nome do objeto pra ver se testou
-person.name = "Hacked";
+person.name = 'Hacked';
 console.log(person);
 //Não funciona enquanto o freeze estiver funcionando
 

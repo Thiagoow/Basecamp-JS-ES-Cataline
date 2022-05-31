@@ -1,4 +1,4 @@
-console.log("Hello world! ;)");
+console.log('Hello world! ;)');
 
 //-----------------------A PARTIR DAQUI, OS CÓDIGOS SÃO PRA EXECUTAR O "calculator.js":
 
@@ -13,7 +13,7 @@ console.log("Hello world! ;)");
 
 //MAS, como nesse caso, eu quero usar todas as funções do calculator.js,
 //a sum e subtraction, pois só tem elas lá). Eu poderia usar o "*", para importar TUDO:
-import * as calculator from "./calculator.js";
+import * as calculator from './calculator.js';
 
 //Definindo então, aqui no console.log, qual a função que desejamos
 //de toda a importação "calculator", do calculator.js:
@@ -29,7 +29,7 @@ Oq significa que, se colocarmos os números com ""
 (duas strings), a função irá CONCATENÁ-LOS,
 invés de realmente somar. Veja:
 */
-console.log(sum("10", "5"));
+console.log(sum('10', '5'));
 /*
 Para impedir isso, não tem jeito, ou declaramos as
 vars no próprio arquivo Js, ou transformamos ele pra
